@@ -1,18 +1,15 @@
 {
-  "name": "swagger-client",
+  "name": "@bluegill/swagger-client",
   "author": "Zeke Sikelianos <zeke@sikelianos.com>",
-  "contributors": [ 
-    {
-      "name": "Tony Tam",
-      "email": "fehguy@gmail.com"
-    }
+  "contributors": [
+    "Seth Kester <sekest@bluegilltech.com>"
   ],
   "description": "swagger.js is a javascript client for use with swaggering APIs.",
   "version": "2.0.26",
   "homepage": "http://swagger.wordnik.com",
   "repository": {
     "type": "git",
-    "url": "git://github.com/wordnik/swagger-js.git"
+    "url": "git://github.com/sekest/swagger-js.git"
   },
   "main": "lib/swagger.js",
   "scripts": {
@@ -30,5 +27,11 @@
   "devDependencies": {
     "coffee-script": "~1.5.0"
   },
-  "license": "apache 2.0"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sekest/swagger-js/issues"
+  },
+  "directories": {
+    "lib": "lib"
+  }
 }
